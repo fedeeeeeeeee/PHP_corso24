@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Esempio PHP</title>
+    <title>Esempio PHP Mod</title>
 </head>
 <body>
     <h1>
