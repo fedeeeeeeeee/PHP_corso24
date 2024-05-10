@@ -1,0 +1,14 @@
+<?php
+$eta = 15;
+$weekend = false;
+
+if ($eta < 12) {
+    echo "Sei un bambino sotto i 12 anni entri GRATIS";
+} elseif ($eta >= 12 && $eta < 18) {
+    echo $weekend ? " Sei un adolescente ed è un giorno festivo, paghi 3 euro" :
+                    " Sei un adolescente ed è un giorno feriale, paghi 5 euro";
+} else {
+    echo $weekend ? " Sei un adulto paghi ed è un giorno festivo, 8 euro" : 
+                    "Sei un adulto ed è un giorno feriale, paghi 10 euro";
+}
+?>

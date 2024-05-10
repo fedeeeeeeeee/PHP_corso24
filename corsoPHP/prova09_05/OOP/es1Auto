@@ -1,0 +1,21 @@
+<?php
+
+class Automobile {
+    private $marca;
+    private $modello;
+
+    public function __construct($marca, $modello) {
+        $this->marca = $marca;
+        $this->modello = $modello;
+    }
+
+    public function dettagliAuto() {
+        return "Marca: " . $this->marca . ", Modello: " . $this->modello;
+    }
+}
+
+$auto = new Automobile("Fiat", "500");
+$auto = new Automobile("Citroen","C3 AirCross");
+echo $auto->dettagliAuto();
+
+?>
